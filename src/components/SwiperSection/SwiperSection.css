@@ -1,0 +1,174 @@
+#app {
+    height: 100%;
+  }
+  /* html,
+  body {
+    position: relative;
+    height: 100%;
+  } */
+  
+  body {
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    /* background: #c37c7c; */
+    background-color: rgba(255, 255, 255, 0.503);
+    border-radius: 10px;
+      display: flex;
+      padding: 2vh 3vh;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 40vw;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .slideSwiper{
+    padding: 1vh 3vh;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+.sect1{
+    display: flex;
+    gap: 3vh;
+}  
+.imgsect img{
+    height: 8vh;
+    border-radius: 10px;
+    width: 4vw;
+}
+
+.descSect{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.descSect p{
+  color: rgb(3, 178, 3);
+  text-align: left;
+}
+.descSect h2{
+  font-size: 3vh;
+}
+
+
+.stars{
+  display: flex;
+  gap: 0.4vh;
+}
+.stars img{
+  height: 2vh;
+  width: 2vh;
+}
+
+.sect2{
+  display: flex;
+}
+
+.sect2 p{
+  text-align: left;
+  font-size: 2.3vh;
+}
+
+
+/* RESPONSIVE */
+@media (max-width:600px) {
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    /* background: #c37c7c; */
+    /* background-color: rgba(90, 38, 38, 0.503); */
+    border-radius: 10px;
+      display: flex;
+      padding: 2vh 3vh;
+    width: 60vw !important;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .slideSwiper{
+    padding: 1vh 3vh;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+.sect1{
+    display: flex;
+    gap: 3vh;
+}  
+.imgsect img{
+    height: 8vh;
+    border-radius: 10px;
+    width: 4vw;
+}
+
+.descSect{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.descSect p{
+  color: rgb(3, 178, 3);
+  text-align: left;
+}
+.descSect h2{
+  font-size: 3vh;
+}
+
+
+.stars{
+  display: flex;
+  gap: 0.4vh;
+}
+.stars img{
+  height: 2vh;
+  width: 2vh;
+}
+
+.sect2{
+  display: flex;
+}
+
+.sect2 p{
+  text-align: left;
+  font-size: 2.3vh;
+}
+}

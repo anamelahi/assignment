@@ -1,0 +1,32 @@
+.lcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+}
+
+.links-container{
+    padding: 10vh 6vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #edecec;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+}
+
+/* RESPONSIVE */
+@media (max-width:600px) {
+    .links-container{
+        margin-top: 5vh;
+        padding: 10vh 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10vh;
+        justify-content: space-around;
+        background-color: #edecec;
+    }
+}
