@@ -58,3 +58,11 @@
     }
     
 }
+
+@media (max-width:500px) {
+    .page5{
+        padding: 10vh 0vh;
+        min-height: 100vh;
+        width: 100%;
+    }
+}

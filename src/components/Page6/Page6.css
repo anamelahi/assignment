@@ -143,3 +143,15 @@
     }
     
 }
+
+@media (max-width:500px) {
+    .card .rightt img{
+        /* visibility: hidden; */
+        height: fit-content;
+        position: absolute;
+        /* height: 110vh; */
+        top: 679vh;
+        left: 8vh;
+        height: 45vh;
+    }
+}

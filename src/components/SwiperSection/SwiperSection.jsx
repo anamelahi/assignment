@@ -15,9 +15,6 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 const SwiperSection = () => {
     const [swiperRef, setSwiperRef] = useState(null);
-
-    let appendNumber = 4;
-    let prependNumber = 1;
   
   return (
     <>
